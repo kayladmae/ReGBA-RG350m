@@ -390,9 +390,7 @@ u32 update_gba()
 
           update_backup();
 
-#if 0
           process_cheats();
-#endif
 
           vcount = 0;
         }
